@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DC - CONCURSOS</title>
+    <title>DC CONCURSOS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
@@ -51,7 +51,8 @@
                             <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
                             <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
                             <li><a class="dropdown-item" href="#missao">PC-AL</a></li>
-                            <li><a class="dropdown-item" href="#missao">GCM-Maceió</a></li>
+                            <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
+                            <li><a class="dropdown-item" href="#missao">CBM-AL</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -61,7 +62,7 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
                             <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
-                            <li><a class="dropdown-item" href="#missao">GCM-Maceió</a></li>
+                            <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
                             <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
                         </ul>
                     </li>
@@ -134,23 +135,23 @@
     <section class="cards-section">
         <div class="container">
             <h2 class="text-center mb-5">Cursos em destaque</h2>
-            <div class="row g-4">
-                <div class="col-md-4 col-lg-3">
+            <div id="cards-center" class="row g-3">
+                <div class="col-md-6 col-lg-2">
                     <div class="card">
                         <img src="assets/img/curso-pmal.png" alt="pmal">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-2">
                     <div class="card">
                         <img src="assets/img/curso-cbmal.png" alt="cbmal">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-2">
                     <div class="card">
                         <img src="assets/img/curso-gcm-mcz.png" alt="gcm-mcz">
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-2">
                     <div class="card">
                         <img src="assets/img/curso-pcal.png" alt="Tecnologia">
                     </div>
@@ -166,16 +167,17 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card info-card">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Cronograma estratégico📚</h5>
-                            <p class="card-text">Tenha acesso a um cronograma estratégico de estudos individualizado, 
-                        disponibilizado na área do aluno, desenvolvido para potencializar o desempenho e a aprovação.</p>
+                            <img src="assets/icons/icons8-semana-da-linha-do-tempo-50.png">
+                            <h5 class="card-title">Cronograma estratégico</h5>
+                            <p class="card-text">Tenha acesso a um cronograma estratégico de estudos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card info-card">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Suporte especializado 👨🏻‍🏫</h5>
+                            <img src="assets/icons/icons8-professor-50.png">
+                            <h5 class="card-title">Suporte especializado</h5>
                             <p class="card-text">Atendimento disponível para tirar suas dúvidas a qualquer momento.</p>
                         </div>
                     </div>
@@ -183,7 +185,8 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card info-card">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Método DC ✅</h5>
+                            <img src="assets/icons/icons8-aprovado-50.png">
+                            <h5 class="card-title">Método DC</h5>
                             <p class="card-text">Metodologia otimizada para acelerar seu processo de aprendizagem.</p>
                         </div>
                     </div>
@@ -191,9 +194,9 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card info-card">
                         <div class="card-body text-center">
-                            <h5 class="card-title">Treinamento para o TAF 🏃</h5>
-                            <p class="card-text">Treinamento físico direcionado para o TAF, integrado ao curso, 
-                        com foco total nos índices e exercícios previstos em edital, garantindo ao aluno o máximo desempenho no dia da prova.</p>
+                            <img src="/assets/icons/icons8-documentos-50.png">
+                            <h5 class="card-title">Simulados e Questões</h5>
+                            <p class="card-text">Simulados estratégicos e aprenda com resoluções claras e objetivas.</p>
                         </div>
                     </div>
                 </div>
@@ -203,19 +206,16 @@
 
 <footer>
     <div class="container text-center">
-        <div class="footer-logo">
-            <i class="bi bi-mortarboard-fill" style="margin-right: 10px;"></i>
-            Edu<span style="color: #3498db;">Learn</span>
+        <div id="logo-footer" class="container">
+            <a class="logo">
+                <div class="logo-icon">
+                    <img src="assets/icons/logo-2.png" alt="Logo">
+                </div>
+                <span></span>
+            </a>
         </div>
-        <p class="mb-4">Transformando educação através da tecnologia</p>
-            
-        <h5 class="mb-3">Tecnologias Utilizadas</h5>
-        <div class="tech-icons">
-            <i class="bi bi-filetype-html tech-icon" title="HTML5"></i>
-            <i class="bi bi-filetype-css tech-icon" title="CSS3"></i>
-            <i class="bi bi-filetype-js tech-icon" title="JavaScript"></i>
-            <i class="bi bi-bootstrap-fill tech-icon" title="Bootstrap"></i>
-        </div>
+        <p class="mb-4">Nossa missão é transformar vidas!</p>
+        
             <hr style="border-color: rgba(255,255,255,0.2);">
             <p class="mb-0">&copy; 2024 EduLearn. Todos os direitos reservados.</p>
         </div>
