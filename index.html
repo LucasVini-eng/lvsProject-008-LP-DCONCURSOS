@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <div class="logo-icon">
                     <img src="assets/icons/logo-2.png" alt="Logo">
                 </div>
@@ -22,60 +22,66 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="search-container">
                     <input type="text" class="search-input" id="searchInput" placeholder="Pesquisar...">
                     <i class="bi bi-search search-icon"></i>
-                    <div class="suggestions" id="suggestions"></div>
-                </div>
+                <div class="suggestions" id="suggestions"></div>
+            </div>
+            
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Sobre nós
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="pages/nossa-historia.html">Nossa História</a></li>
+                        <li><a class="dropdown-item" href="pages/professores.html">Professores</a></li>
+                    </ul>
+                </li>
 
-                <ul class="navbar-nav ms-auto align-items-lg-center">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Sobre nós
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#historia">Nossa História</a></li>
-                            <li><a class="dropdown-item" href="pages/professores.html">Professores</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Aprovados</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Cursos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
-                            <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
-                            <li><a class="dropdown-item" href="#missao">PC-AL</a></li>
-                            <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
-                            <li><a class="dropdown-item" href="#missao">CBM-AL</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Apostilas e Materiais
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
-                            <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
-                            <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
-                            <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Atendimento</a>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn btn-aluno btn-ja-sou">Área do Aluno</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn btn-aluno btn-quero-ser">Quero ser Aluno!</button>
-                    </li>
-                </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Aprovados</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Cursos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                        <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
+                        <li><a class="dropdown-item" href="#missao">PC-AL</a></li>
+                        <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
+                        <li><a class="dropdown-item" href="#missao">CBM-AL</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Apostilas e Materiais
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                        <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
+                        <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
+                        <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Atendimento</a>
+                </li>
+
+                <li class="nav-item">
+                    <button class="btn btn-aluno btn-ja-sou">Área do Aluno</button>
+                </li>
+                
+                <li class="nav-item">
+                    <button class="btn btn-aluno btn-quero-ser">Quero ser Aluno!</button>
+                </li>
+            </ul>
             </div>
         </div>
     </nav>
@@ -90,19 +96,19 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/banner-pmal-279.jpg" alt="PMAL">
+                <a href="http://"><img src="assets/img/banner-pmal-279.jpg" alt="PMAL"></a>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/banner-pcal-279.jpg" alt="PCAL">
+                <a href="http://"><img src="assets/img/banner-pcal-279.jpg" alt="PCAL"></a>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/banner-gcm-279.jpg" alt="GCM-MCZ">
+                <a href="http://"><img src="assets/img/banner-gcm-279.jpg" alt="GCM-MCZ"></a>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/banner-cbmal-279.jpg" alt="CBM-AL">
+                <a href="http://"><img src="assets/img/banner-cbmal-279.jpg" alt="CBM-AL"></a>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/banner-pmpe-279.jpg" alt="PMPE">
+                <a href="http://"><img src="assets/img/banner-pmpe-279.jpg" alt="PMPE"></a>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
@@ -117,7 +123,7 @@
         <div class="container">
             <div class="feature-card">
                <iframe  id="iframe-youtube"
-                        src="https://www.youtube.com/embed/2wGt0xpHsDw?si=2DBS2aYRPS2LU9o_" 
+                        src="https://www.youtube.com/embed/2wGt0xpHsDw?si=2DBS2aYRPS2LU9o_"
                         title="YouTube video player" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -138,22 +144,22 @@
             <div id="cards-center" class="row g-3">
                 <div class="col-md-6 col-lg-2">
                     <div class="card">
-                        <img src="assets/img/curso-pmal.png" alt="pmal">
+                       <a href="http://"> <img src="assets/img/curso-pmal.png" alt="pmal"></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-2">
                     <div class="card">
-                        <img src="assets/img/curso-cbmal.png" alt="cbmal">
+                        <a href="http://"><img src="assets/img/curso-cbmal.png" alt="cbmal"></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-2">
                     <div class="card">
-                        <img src="assets/img/curso-gcm-mcz.png" alt="gcm-mcz">
+                        <a href="http://"><img src="assets/img/curso-gcm-mcz.png" alt="gcm-mcz"></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-2">
                     <div class="card">
-                        <img src="assets/img/curso-pcal.png" alt="Tecnologia">
+                       <a href="http://"> <img src="assets/img/curso-pcal.png" alt="pcal"></a>
                     </div>
                 </div>
             </div>
@@ -194,7 +200,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card info-card">
                         <div class="card-body text-center">
-                            <img src="/assets/icons/icons8-documentos-50.png">
+                            <img src="assets/icons/icons8-documentos-50.png">
                             <h5 class="card-title">Simulados e Questões</h5>
                             <p class="card-text">Simulados estratégicos e aprenda com resoluções claras e objetivas.</p>
                         </div>
@@ -207,16 +213,14 @@
 <footer>
     <div class="container text-center">
         <div id="logo-footer" class="container">
-            <a class="logo">
                 <div class="logo-icon">
                     <img src="assets/icons/logo-2.png" alt="Logo">
                 </div>
-            </a>
         </div>
         <p class="mb-4">Nossa missão é transformar vidas!</p>
             <a class="icon-footer" href="http://"><img src="assets/icons/icons8-instagram-50.png"></a>
             <a class="icon-footer" href="http://"><img src="assets/icons/icons8-youtube-50.png"></a>
-            <a class="icon-footer" href="http://"><img src="assets/icons/icons8-whatsapp-50.png"></a>
+            <a class="icon-footer" href="https://wa.me/5582993458306"><img src="assets/icons/icons8-whatsapp-50.png"></a>
             <hr style="border-color: rgba(255,255,255,0.2);">
             <p class="mb-0">&copy; 2026 DC Concursos. Todos os direitos reservados.</p>
         </div>

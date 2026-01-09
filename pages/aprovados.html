@@ -1,11 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DC CONCURSOS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a href="/index.html" class="logo">
+                <div class="logo-icon">
+                    <img src="/assets/icons/logo-2.png" alt="Logo">
+                </div>
+                <span></span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="search-container">
+                    <input type="text" class="search-input" id="searchInput" placeholder="Pesquisar...">
+                    <i class="bi bi-search search-icon"></i>
+                    <div class="suggestions" id="suggestions"></div>
+                </div>
+
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Sobre nós
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#historia">Nossa História</a></li>
+                            <li><a class="dropdown-item" href="pages/professores.html">Professores</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Aprovados</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
+                            <li><a class="dropdown-item" href="#missao">PC-AL</a></li>
+                            <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
+                            <li><a class="dropdown-item" href="#missao">CBM-AL</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Apostilas e Materiais
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
+                            <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
+                            <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Atendimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-aluno btn-ja-sou">Área do Aluno</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-aluno btn-quero-ser">Quero ser Aluno!</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="container">
+    <br>
+        <h1 class="text-center mb-5">Nossa Equipe de Professores</h1>
+        
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/DIEGO CORREIA.jpg" class="card-img-center professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Legislação</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/DOUGLAS LIMA.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: História</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/JEDSON MONSTRO.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Geografia</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/NETO.jpg" class="card-img-top professor-img" alt="Professor 4">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Informática</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/LAUDIJUNIOR.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Português</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/THOMAS OMENA.jpg" class="card-img-top professor-img" >
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Matemática</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 7 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/LUCIANA EBRAIM.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Português</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 8 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/SAMUEL SOARES.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: História</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 9 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/MANU SOUTO.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Matemática</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 10 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/ALLAN DANTAS.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Direito Penal</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 11 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/ALBERT DOUGLAS.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Direito Administrativo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 12 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/DINHO CAVALCANTE.jpg" class="card-img-top professor-img" alt="Professor 12">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Direito Constitucional</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 13 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/JEAN WALNEY.jpg" class="card-img-top professor-img">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: Direito Administrativo</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 14 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="/assets/img/TIAGO LEITE.jpg" class="card-img-top professor-img" alt="Professor 14">
+                    <div class="card-body">
+                        <p class="card-text">Disciplina: PMPE</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 15 -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card professor-card">
+                    <img src="https://via.placeholder.com/300x250?text=Professor+15" class="card-img-top professor-img" alt="Professor 15">
+                    <div class="card-body">
+                        <h5 class="card-title">Prof. Nome Sobrenome</h5>
+                        <p class="card-text">Disciplina: Espanhol</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container text-center">
+        <div id="logo-footer" class="container">
+            <a class="logo">
+                <div class="logo-icon">
+                    <img src="assets/icons/logo-2.png" alt="Logo">
+                </div>
+                <span></span>
+            </a>
+        </div>
+        <p class="mb-4">Nossa missão é transformar vidas!</p>
+        
+            <hr style="border-color: rgba(255,255,255,0.2);">
+            <p class="mb-0">&copy; 2024 EduLearn. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

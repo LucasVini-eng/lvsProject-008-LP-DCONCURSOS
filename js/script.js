@@ -2,10 +2,10 @@ const searchInput = document.getElementById('searchInput');
 const suggestionsDiv = document.getElementById('suggestions');
         
 const suggestions = [
-    'Curso PMAL',
+    'Curso - PMAL',
     'Isolada de Legislação - Diego Correia',
-    'Curso PMPE',
-    'Apostila de Geografia',
+    'Curso - PCAL',
+    'Curso - PMPE',
     'Curso GCM-Maceió'
 ];
 
@@ -44,7 +44,7 @@ document.addEventListener('click', function(e) {
         }
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+document.querySelectorAll('a[href^="/pages/professores.html"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
