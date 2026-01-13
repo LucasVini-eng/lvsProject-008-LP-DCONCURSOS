@@ -13,79 +13,70 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a href="/index.html" class="logo">
-                <div class="logo-icon">
-                    <img src="/assets/icons/logo-2.png" alt="Logo">
-                </div>
-            </a>
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+                <img src="assets/icons/icons8-menu-50.png" width="25px" height="25px">
+                <span class="menu-button">Menu</span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="search-container">
-                    <input type="text" class="search-input" id="searchInput" placeholder="Pesquisar...">
-                    <i class="bi bi-search search-icon"></i>
-                <div class="suggestions" id="suggestions"></div>
-            </div>
-            
-            <ul class="navbar-nav ms-auto align-items-lg-center">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                        Sobre nós
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="pages/professores.html">Professores</a></li>
-                    </ul>
-                </li>
+                <a href="/index.html" class="logo">
+                    <div class="logo-icon">
+                        <img src="/assets/icons/logo-2.png" alt="Logo">
+                    </div>
+                </a>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Aprovados</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                        Cursos
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
-                        <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
-                        <li><a class="dropdown-item" href="#missao">PC-AL</a></li>
-                        <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
-                        <li><a class="dropdown-item" href="#missao">CBM-AL</a></li>
-                    </ul>
-                </li>
-                
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                        Apostilas e Materiais
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
-                        <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
-                        <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
-                        <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Atendimento</a>
-                </li>
-
-                <li class="nav-item">
-                    <button class="btn btn-aluno btn-ja-sou">Área do Aluno</button>
-                </li>
-                
-                <li class="nav-item">
-                    <button class="btn btn-aluno btn-quero-ser">Quero ser Aluno!</button>
-                </li>
-            </ul>
+                <ul class="navbar-nav ms-2 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Sobre nós
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/pages/professores.html">Professores</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Aprovados</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
+                            <li><a class="dropdown-item" href="#missao">PC-AL</a></li>
+                            <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
+                            <li><a class="dropdown-item" href="#missao">CBM-AL</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Apostilas e Materiais
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/pages/curso-pmal.html">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
+                            <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
+                            <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Atendimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-aluno btn-ja-sou">Área do Aluno</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-aluno btn-quero-ser">Quero ser Aluno!</button>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
             <div class="hero-content text-center">
@@ -171,56 +162,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Values Section -->
-    <section class="values-section" id="missao">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="mb-3">Nossos Valores</h2>
-                <p class="text-muted lead">Princípios que guiam cada decisão e ação</p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                    <div class="value-card">
-                        <div class="value-icon">
-                            <i class="bi bi-heart-fill"></i>
-                        </div>
-                        <h4>Paixão por Educar</h4>
-                        <p>Acreditamos no poder transformador da educação e trabalhamos com dedicação para inspirar cada aluno.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="value-card">
-                        <div class="value-icon">
-                            <i class="bi bi-lightbulb-fill"></i>
-                        </div>
-                        <h4>Inovação</h4>
-                        <p>Buscamos constantemente novas formas de ensinar, utilizando tecnologia de ponta para melhorar a experiência.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="value-card">
-                        <div class="value-icon">
-                            <i class="bi bi-people-fill"></i>
-                        </div>
-                        <h4>Inclusão</h4>
-                        <p>Educação de qualidade deve ser acessível a todos, independente de origem ou condição social.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="value-card">
-                        <div class="value-icon">
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <h4>Excelência</h4>
-                        <p>Comprometidos com os mais altos padrões de qualidade em todo o conteúdo que produzimos.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
 <footer>
     <div class="container text-center">

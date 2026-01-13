@@ -10,34 +10,30 @@
     <script src="/js/script.js" defer></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
+   <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a href="/index.html" class="logo">
-                <div class="logo-icon">
-                    <img src="/assets/icons/logo-2.png" alt="Logo">
-                </div>
-                <span></span>
-            </a>
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+                <img src="assets/icons/icons8-menu-50.png" width="25px" height="25px">
+                <span class="menu-button">Menu</span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="search-container">
-                    <input type="text" class="search-input" id="searchInput" placeholder="Pesquisar...">
-                    <i class="bi bi-search search-icon"></i>
-                    <div class="suggestions" id="suggestions"></div>
-                </div>
+                <a href="/index.html" class="logo">
+                    <div class="logo-icon">
+                        <img src="/assets/icons/logo-2.png" alt="Logo">
+                    </div>
+                </a>
 
-                <ul class="navbar-nav ms-auto align-items-lg-center">
+                <ul class="navbar-nav ms-2 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Sobre nós
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#historia">Nossa História</a></li>
-                            <li><a class="dropdown-item" href="pages/professores.html">Professores</a></li>
+                            <li><a class="dropdown-item" href="/pages/professores.html">Professores</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -60,7 +56,7 @@
                             Apostilas e Materiais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="/pages/curso-pmal.html">PM-AL</a></li>
                             <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
                             <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
                             <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
@@ -80,10 +76,16 @@
         </div>
     </nav>
 
-<div class="container">
-    <br>
-        <h1 class="text-center mb-5">Nossa Equipe de Professores</h1>
-        
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content text-center">
+                <h1>Nossa História</h1>
+                <p class="lead">Uma jornada de transformação através da educação</p>
+            </div>
+        </div>
+    </section>
+
+<div class="container">       
         <div class="row g-4">
             <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="card professor-card">

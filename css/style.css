@@ -1,7 +1,6 @@
 :root {
     --primary-color: #2a3944;
     --secondary-color: rgb(3, 7, 18);
-    --accent-color: #030712;
     --gray-background: #030712;
     --white-font: #ffffff;
     --blue-hover-font:#0836b5;
@@ -45,12 +44,18 @@ h2{
 
 .logo{
     margin-left: 15%;
+    width: auto;
+    height: auto;
 }
 
 .logo-icon img{
-    width: 75px;
-    height: 65px;
+    width: 80px;
+    height: 60px;
     border-radius: 10px;
+}
+
+.menu-button{
+    color: var(--white-font);
 }
 
 .btn-aluno {
@@ -259,7 +264,7 @@ footer {
 
 
 .hero-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #030712 0%, #030712 100%);
             padding: 6rem 0 4rem;
             color: white;
             position: relative;

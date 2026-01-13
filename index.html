@@ -11,20 +11,21 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+                <img src="assets/icons/icons8-menu-50.png" width="25px" height="25px">
+                <span class="menu-button">Menu</span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <a href="/index.html" class="logo">
                     <div class="logo-icon">
-                        <img src="/assets/icons/logo-2.png" alt="Logo">
+                        <img src="assets/icons/logo-2.png" alt="Logo">
                     </div>
                 </a>
 
-                <ul class="navbar-nav ms-2 align-items-lg-center">
+                <ul class="navbar-nav ms-4 align-items-lg-center">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Sobre nós
@@ -54,7 +55,7 @@
                             Apostilas e Materiais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="pages/curso-pmal.html">PM-AL</a></li>
                             <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
                             <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
                             <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
@@ -129,23 +130,23 @@
     <section class="cards-section">
         <div class="container">
             <h2 class="text-center mb-5">Cursos em destaque</h2>
-            <div id="cards-center" class="row g-3">
-                <div class="col-md-6 col-lg-2">
+            <div id="cards-center" class="row g-4">
+                <div class="col-md-7 col-lg-2">
                     <div class="card">
-                       <a href="http://"> <img src="assets/img/curso-pmal.png" alt="pmal"></a>
+                       <a href="pages/curso-pmal.html"> <img src="assets/img/curso-pmal.png" alt="pmal"></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2">
+                <div class="col-md-7 col-lg-2">
                     <div class="card">
                         <a href="http://"><img src="assets/img/curso-cbmal.png" alt="cbmal"></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2">
+                <div class="col-md-7 col-lg-2">
                     <div class="card">
                         <a href="http://"><img src="assets/img/curso-gcm-mcz.png" alt="gcm-mcz"></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2">
+                <div class="col-md-7 col-lg-2">
                     <div class="card">
                        <a href="http://"> <img src="assets/img/curso-pcal.png" alt="pcal"></a>
                     </div>
@@ -154,44 +155,48 @@
         </div>
     </section>
 
-    <section class="cards-section">
+    <section class="values-section" id="missao">
         <div class="container">
-            <h2 class="text-center mb-5">Nossos diferenciais</h2>
+            <div class="text-center mb-5">
+                <h2 class="mb-3">Visão, Missão e Valores</h2>
+                <p class="text-muted lead">Princípios que guiam cada decisão e ação</p>
+            </div>
+
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="card info-card">
-                        <div class="card-body text-center">
-                            <img src="assets/icons/icons8-semana-da-linha-do-tempo-50.png">
-                            <h5 class="card-title">Cronograma estratégico</h5>
-                            <p class="card-text">Tenha acesso a um cronograma estratégico de estudos.</p>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="bi bi-heart-fill"></i>
                         </div>
+                        <h4>Paixão por Educar</h4>
+                        <p>Acreditamos no poder transformador da educação e trabalhamos com dedicação para inspirar cada aluno.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="card info-card">
-                        <div class="card-body text-center">
-                            <img src="assets/icons/icons8-professor-50.png">
-                            <h5 id="text-bg" class="card-title">Suporte especializado</h5>
-                            <p class="card-text">Atendimento disponível para tirar suas dúvidas a qualquer momento.</p>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="bi bi-lightbulb-fill"></i>
                         </div>
+                        <h4>Inovação</h4>
+                        <p>Buscamos constantemente novas formas de ensinar, utilizando tecnologia de ponta para melhorar a experiência.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="card info-card">
-                        <div class="card-body text-center">
-                            <img src="assets/icons/icons8-aprovado-50.png">
-                            <h5 class="card-title">Método DC</h5>
-                            <p class="card-text">Metodologia otimizada para acelerar seu processo de aprendizagem.</p>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="bi bi-people-fill"></i>
                         </div>
+                        <h4>Inclusão</h4>
+                        <p>Educação de qualidade deve ser acessível a todos, independente de origem ou condição social.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="card info-card">
-                        <div class="card-body text-center">
-                            <img src="assets/icons/icons8-documentos-50.png">
-                            <h5 class="card-title">Simulados e Questões</h5>
-                            <p class="card-text">Simulados estratégicos e aprenda com resoluções claras e objetivas.</p>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="bi bi-star-fill"></i>
                         </div>
+                        <h4>Excelência</h4>
+                        <p>Comprometidos com os mais altos padrões de qualidade em todo o conteúdo que produzimos.</p>
                     </div>
                 </div>
             </div>
