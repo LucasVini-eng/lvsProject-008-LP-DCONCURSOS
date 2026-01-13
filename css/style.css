@@ -43,73 +43,14 @@ h2{
     color: none;
 }
 
+.logo{
+    margin-left: 15%;
+}
+
 .logo-icon img{
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 65px;
     border-radius: 10px;
-}
-
-.search-container {
-    position: relative;
-    flex-grow: 1;
-    max-width: 300px;
-    margin: 0 1rem;
-}
-
-.suggestions:hover {
-    background-color: var(--gray-background);
-}
-
-
-
-
-.search-input {
-    width: 100%;
-    padding: 0.5rem 2.5rem 0.5rem 1rem;
-    border: 2px solid var(--blue-hover-font);
-    border-radius: 5px;
-    transition: all 0.3s;
-}
-
-.search-input:focus {
-    outline: none;
-    border-color: var(--secondary-color);
-}
-
-.search-icon {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #666;
-}
-
-.suggestions {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    margin-top: 5px;
-    display: none;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.suggestions.show {
-    display: block;
-}
-
-.suggestion-item {
-    padding: 0.7rem 1rem;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-.suggestion-item:hover {
-    background-color: var(--white-font);
 }
 
 .btn-aluno {
