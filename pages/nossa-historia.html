@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-curso-pmal.css">
     <script src="/js/script.js" defer></script>
 </head>
 
@@ -14,27 +16,29 @@
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <img src="assets/icons/icons8-menu-50.png" width="25px" height="25px">
+                <img src="/assets/icons/icons8-menu-50.png" width="25px" height="25px">
                 <span class="menu-button">Menu</span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <a href="/index.html" class="logo">
                     <div class="logo-icon">
-                        <img src="/assets/icons/logo-2.png" alt="Logo">
+                        <img src="/assets/icons/logo.png" alt="Logo">
                     </div>
                 </a>
 
-                <ul class="navbar-nav ms-2 align-items-lg-center">
+                <ul class="navbar-nav ms-4 align-items-lg-center">
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Início</a>
+                        <a class="nav-link" href="/index.html">Início</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Sobre nós
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/pages/professores.html">Professores</a></li>
+                            <li><a class="dropdown-item" href="pages/nossa-historia.html">Nossa História</a></li>
+                            <li><a class="dropdown-item" href="pages/professores.html">Professores</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -57,7 +61,7 @@
                             Apostilas e Materiais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/pages/curso-pmal.html">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
                             <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
                             <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
                             <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
@@ -77,86 +81,182 @@
         </div>
     </nav>
 
-    <section class="hero-section">
+    <div class="animated-bg">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <section class="hero">
         <div class="container">
-            <div class="hero-content text-center">
-                <h1>Nossa História</h1>
-                <p class="lead">Uma jornada de transformação através da educação</p>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1>Esteja preparado para prova dos seus sonhos!</h1>
+                        <p class="subtitle">Do zero até sua aprovação!</p>
+                        
+                        <div class="hero-features">
+                            <div class="hero-feature">
+                                <i class="bi bi-clock-fill"></i>
+                                <span class="span-header">365 dias de conteúdo</span>
+                            </div>
+                            <div class="hero-feature">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <span class="span-header">150+ videoaulas</span>
+                            </div>
+                            <div class="hero-feature">
+                                <i class="bi bi-file-code-fill"></i>
+                                <span class="span-header">50+ Materiais práticos</span>
+                            </div>
+                        </div>
+
+                        <a href="#comprar" class="btn-cta">COMEÇAR AGORA</a>
+                        
+                        <div class="price-tag">
+                            <span class="price-new">R$ 297,00</span>
+                        </div>
+                    </div>
+                    <iframe src="https://pay.kiwify.com.br/vZSFHZc" frameborder="0"></iframe>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/assets/img/curso-pmal.jpg" alt="Programação" style="width: 80%; border-radius: 20px; box-shadow: 0 20px 60px rgba(74, 144, 226, 0.3);">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Timeline Section -->
-    <section class="timeline-section" id="historia">
+     <section class="learn-section">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="mb-3">A Trajetória da EduLearn</h2>
-                <p class="text-muted lead">Desde o início, nosso compromisso é com a excelência educacional</p>
+            <h2 class="section-title">Nossos diferenciais</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="learn-card">
+                        <i class="bi bi-code-slash"></i>
+                        <h4>Simulados e Questões</h4>
+                        <p>Tenha acesso a um cronograma estratégico de estudos.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="learn-card">
+                        <i class="bi bi-database-fill"></i>
+                        <h4>Suporte especializados</h4>
+                        <p>Atendimento disponível para tirar suas dúvidas a qualquer momento.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="learn-card">
+                        <i class="bi bi-graph-up"></i>
+                        <h3>Data Science</h3>
+                        <p>Pandas, NumPy e visualização de dados.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="learn-card">
+                        <i class="bi bi-globe"></i>
+                        <h3>Web Development</h3>
+                        <p>Flask, Django e APIs REST.</p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="timeline">
-                <!-- Timeline Item 1 -->
-                <div class="timeline-item">
-                    <div class="timeline-year">2015</div>
-                    <div class="timeline-content">
-                        <h3>O Início de Tudo</h3>
-                        <p>Fundada por educadores apaixonados, a EduLearn nasceu com o sonho de democratizar o acesso à educação de qualidade. Começamos com apenas 5 cursos e uma pequena equipe dedicada a fazer a diferença.</p>
-                        <p>Nosso primeiro escritório era uma sala modesta, mas os sonhos eram grandes. Acreditávamos que a tecnologia poderia transformar a forma como as pessoas aprendem.</p>
+    <section class="modules-section">
+        <div class="container">
+            <h2 class="section-title">Módulos do Curso</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 1</div>
+                        <div class="module-title">Língua Portuguesa</div>
                     </div>
-                    <div class="timeline-image">
-                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop" alt="Início da EduLearn">
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 2</div>
+                        <div class="module-title">Noções de Informática</div>
+                    </div>
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 3</div>
+                        <div class="module-title">Matemática</div>
+                    </div>
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 4</div>
+                        <div class="module-title">História Geral, Brasil e Alagoas</div>
+                    </div>
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 5</div>
+                        <div class="module-title">Geografia Geral, Brasil e Alagoas</div>
                     </div>
                 </div>
 
-                <!-- Timeline Item 2 -->
-                <div class="timeline-item">
-                    <div class="timeline-year">2017</div>
-                    <div class="timeline-content">
-                        <h3>Crescimento e Expansão</h3>
-                        <p>Alcançamos a marca de 10.000 alunos! A comunidade EduLearn cresceu exponencialmente e expandimos nosso catálogo para mais de 50 cursos em diversas áreas do conhecimento.</p>
-                        <p>Inauguramos nosso primeiro hub de inovação educacional e formamos parcerias estratégicas com instituições renomadas.</p>
+                <div class="col-lg-6">
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 5</div>
+                        <div class="module-title">Legislação pertinente ao Policial Militar de Alagoas</div>
                     </div>
-                    <div class="timeline-image">
-                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop" alt="Expansão">
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 6</div>
+                        <div class="module-title">Noções de Direito Administrativo</div>
                     </div>
-                </div>
-
-                <!-- Timeline Item 3 -->
-                <div class="timeline-item">
-                    <div class="timeline-year">2019</div>
-                    <div class="timeline-content">
-                        <h3>Inovação Tecnológica</h3>
-                        <p>Lançamos nossa plataforma mobile e implementamos inteligência artificial para personalizar a experiência de aprendizado de cada aluno. A tecnologia passou a ser nossa grande aliada.</p>
-                        <p>Desenvolvemos um sistema de recomendação inteligente que se adapta ao ritmo e estilo de aprendizado individual.</p>
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 7</div>
+                        <div class="module-title">Noções de Direito Constitucional</div>
                     </div>
-                    <div class="timeline-image">
-                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop" alt="Tecnologia">
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 8</div>
+                        <div class="module-title">Noções de Direito Penal</div>
                     </div>
-                </div>
-
-                <!-- Timeline Item 4 -->
-                <div class="timeline-item">
-                    <div class="timeline-year">2022</div>
-                    <div class="timeline-content">
-                        <h3>Reconhecimento Nacional</h3>
-                        <p>Recebemos prêmios de excelência em educação e alcançamos 100.000 alunos transformados. Nossa metodologia foi reconhecida como referência em educação online no Brasil.</p>
-                        <p>Expandimos para todo território nacional e iniciamos programas de bolsas de estudo para comunidades carentes.</p>
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 9</div>
+                        <div class="module-title">Noções de Processual Penal</div>
                     </div>
-                    <div class="timeline-image">
-                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop" alt="Reconhecimento">
+                    <div class="module-item">
+                        <div class="module-number">MÓDULO 10</div>
+                        <div class="module-title">Noções de Direitos Humanos</div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Timeline Item 5 -->
-                <div class="timeline-item">
-                    <div class="timeline-year">2024</div>
-                    <div class="timeline-content">
-                        <h3>O Futuro é Agora</h3>
-                        <p>Hoje, somos referência em educação digital com mais de 500 apostilas, centenas de videoaulas e uma comunidade vibrante de aprendizes. Mas nossa jornada está apenas começando!</p>
-                        <p>Continuamos inovando, expandindo e, principalmente, transformando vidas através da educação.</p>
+
+    <section class="cards-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos diferenciais</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card info-card">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/icons8-semana-da-linha-do-tempo-50.png">
+                            <h5 class="card-title">Cronograma estratégico</h5>
+                            <p class="card-text">Tenha acesso a um cronograma estratégico de estudos.</p>
+                        </div>
                     </div>
-                    <div class="timeline-image">
-                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop" alt="Futuro">
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card info-card">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/icons8-professor-50.png">
+                            <h5 id="text-bg" class="card-title">Suporte especializado</h5>
+                            <p class="card-text">Atendimento disponível para tirar suas dúvidas a qualquer momento.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card info-card">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/icons8-aprovado-50.png">
+                            <h5 class="card-title">Método DC</h5>
+                            <p class="card-text">Metodologia otimizada para acelerar seu processo de aprendizagem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card info-card">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/icons8-documentos-50.png">
+                            <h5 class="card-title">Simulados e Questões</h5>
+                            <p class="card-text">Simulados estratégicos e aprenda com resoluções claras e objetivas.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,13 +267,13 @@
     <div class="container text-center">
         <div id="logo-footer" class="container">
                 <div class="logo-icon">
-                    <img src="/assets/icons/logo-2.png" alt="Logo">
+                    <img src="assets/icons/logo-2.png" alt="Logo">
                 </div>
         </div>
         <p class="mb-4">Nossa missão é transformar vidas!</p>
-            <a class="icon-footer" href="http://"><img src="/assets/icons/icons8-instagram-50.png"></a>
-            <a class="icon-footer" href="http://"><img src="/assets/icons/icons8-youtube-50.png"></a>
-            <a class="icon-footer" href="https://wa.me/5582993458306"><img src="/assets/icons/icons8-whatsapp-50.png"></a>
+            <a class="icon-footer" href="http://"><img src="assets/icons/icons8-instagram-50.png"></a>
+            <a class="icon-footer" href="http://"><img src="assets/icons/icons8-youtube-50.png"></a>
+            <a class="icon-footer" href="https://wa.me/5582993458306"><img src="assets/icons/icons8-whatsapp-50.png"></a>
             <hr style="border-color: rgba(255,255,255,0.2);">
             <p class="mb-0">&copy; 2026 DC Concursos. Todos os direitos reservados.</p>
         </div>
