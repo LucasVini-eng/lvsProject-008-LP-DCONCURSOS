@@ -12,6 +12,10 @@ body {
     color: var(--accent-color);
 }
 
+header{
+    background-color: var(--gray-background);
+}
+
 h2{
     font-weight: bold;
 }
@@ -43,14 +47,12 @@ h2{
 }
 
 .logo{
-    margin-left: 15%;
-    width: auto;
-    height: auto;
+    margin-left: 11%;
 }
 
 .logo-icon img{
-    width: 80px;
-    height: 60px;
+    width: 75px;
+    height: 80px;
     border-radius: 10px;
 }
 
@@ -84,6 +86,15 @@ h2{
     background-color: var(--white-font);
     color: var(--gray-background);
 }
+
+.navbar-toggler{
+        border-color: none;
+}
+
+.navbar-toggler:hover{
+    border-color: var(--white-font);
+}
+
         
 .carousel-item img {
     width: 100%;
@@ -95,6 +106,9 @@ h2{
     .carousel-item img {
     height: 150px;
         }
+    .logo{
+        margin-left: 0%;
+    }
 }
 
 .feature-section {
@@ -180,7 +194,7 @@ h2{
 footer {
     background-color: var(--gray-background);
     color: var(--white-font);
-    padding: 2rem 0 1rem;
+    padding: 1rem 0 1rem;
 }
 
 #logo-footer{
@@ -243,10 +257,6 @@ footer {
 
 .icon-footer img{
     width: 35px;
-}
-
-.logo-icon img{
-    width: 50px;
 }
 
 .dropdown-menu{
@@ -408,23 +418,23 @@ footer {
             }
         }
 
-        .timeline-year {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 80px;
-            background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: bold;
-            font-size: 1.2rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            z-index: 2;
-        }
+.timeline-year {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: var(--gray-background);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 2;
+}
 
         .timeline-content h3 {
             color: var(--primary-color);
