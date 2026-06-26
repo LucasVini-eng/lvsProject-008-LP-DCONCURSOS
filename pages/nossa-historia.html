@@ -14,22 +14,23 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
+
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <img src="assets/icons/logo.png" alt="Logo">
+                    </div>
+                </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <img src="assets/icons/icons8-menu-50.png" width="25px" height="25px">
                 <span class="menu-button">Menu</span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <a href="/index.html" class="logo">
-                    <div class="logo-icon">
-                        <img src="assets/icons/logo.png" alt="Logo">
-                    </div>
-                </a>
 
                 <ul class="navbar-nav ms-4 align-items-lg-center">
-
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Início</a>
+                        <a class="nav-link" href="index.html">Início</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
@@ -48,7 +49,7 @@
                             Cursos
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="pages/curso-pmal.html">PM-AL</a></li>
                             <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
                             <li><a class="dropdown-item" href="#missao">PC-AL</a></li>
                             <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
@@ -60,7 +61,7 @@
                             Apostilas e Materiais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#historia">PM-AL</a></li>
+                            <li><a class="dropdown-item" href="pages/curso-pmal.html">PM-AL</a></li>
                             <li><a class="dropdown-item" href="#missao">PM-PE</a></li>
                             <li><a class="dropdown-item" href="#missao">GCM-MACEIÓ</a></li>
                             <li><a class="dropdown-item" href="#missao">LOJA DC</a></li>
@@ -77,185 +78,139 @@
                     </li>
                 </ul>
             </div>
+            
         </div>
     </nav>
 
-    <div class="animated-bg">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-    </div>
-
-    <section class="hero">
+    <section class="hero-section">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="hero-content">
-                        <h1>Esteja preparado para prova dos seus sonhos!</h1>
-                        <p class="subtitle">Do zero até sua aprovação!</p>
-                        
-                        <div class="hero-features">
-                            <div class="hero-feature">
-                                <i class="bi bi-clock-fill"></i>
-                                <span class="span-header">365 dias de conteúdo</span>
-                            </div>
-                            <div class="hero-feature">
-                                <i class="bi bi-play-circle-fill"></i>
-                                <span class="span-header">150+ videoaulas</span>
-                            </div>
-                            <div class="hero-feature">
-                                <i class="bi bi-file-code-fill"></i>
-                                <span class="span-header">50+ Materiais práticos</span>
-                            </div>
-                        </div>
-
-                        <a href="#comprar" class="btn-cta">COMEÇAR AGORA</a>
-                        
-                        <div class="price-tag">
-                            <span class="price-new">R$ 297,00</span>
-                        </div>
-                    </div>
-                    <iframe src="https://pay.kiwify.com.br/vZSFHZc" frameborder="0"></iframe>
-                </div>
-                <div class="col-lg-6">
-                    <img src="assets/img/curso-pmal.jpg" alt="Programação" style="width: 80%; border-radius: 20px; box-shadow: 0 20px 60px rgba(74, 144, 226, 0.3);">
-                </div>
+            <div class="hero-content text-center">
+                <h1>Nossa História</h1>
+                <p class="lead">Confiança que impulsiona resultados!</p>
             </div>
         </div>
     </section>
 
-     <section class="learn-section">
+    <section class="timeline-section" id="historia">
         <div class="container">
-            <h2 class="section-title">Nossos diferenciais</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="learn-card">
-                        <i class="bi bi-code-slash"></i>
-                        <h4>Simulados e Questões</h4>
-                        <p>Tenha acesso a um cronograma estratégico de estudos.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="learn-card">
-                        <i class="bi bi-database-fill"></i>
-                        <h4>Suporte especializados</h4>
-                        <p>Atendimento disponível para tirar suas dúvidas a qualquer momento.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="learn-card">
-                        <i class="bi bi-graph-up"></i>
-                        <h3>Data Science</h3>
-                        <p>Pandas, NumPy e visualização de dados.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="learn-card">
-                        <i class="bi bi-globe"></i>
-                        <h3>Web Development</h3>
-                        <p>Flask, Django e APIs REST.</p>
-                    </div>
-                </div>
+            <div class="text-center mb-5">
+                <h2 class="mb-3">A Trajetória do DC Concursos</h2>
+                <p class="text-muted lead">Desde o início, nosso compromisso é com a excelência educacional!</p>
             </div>
-        </div>
-    </section>
 
-    <section class="modules-section">
-        <div class="container">
-            <h2 class="section-title">Módulos do Curso</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 1</div>
-                        <div class="module-title">Língua Portuguesa</div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2009</div>
+                    <div class="timeline-content">
+                        <h3>O Início de Tudo</h3>
+                        <p>     O DC Concursos nasceu da visão de Diego Correia, 
+                            que iniciou sua trajetória no universo dos certames em 2009. 
+                            O que começou como um sonho pessoal transformou-se em uma missão dedicada à aprovação de novos candidatos.
+                            Naquele início, veio também a frustração: a reprovação no concurso da Polícia Militar de Pernambuco.
+                        </p>
+                        <p>
+                                Mas essa reprovação não foi um ponto final. Foi um marco de decisão.Diego escolheu não desistir. Escolheu se preparar melhor.
+                            Começou então uma jornada intensa de estudos, aprofundando-se em métodos,
+                            estratégias e formas inteligentes de aprender, entendendo que não bastava estudar muito era preciso estudar do jeito certo.
+                        </p>
                     </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 2</div>
-                        <div class="module-title">Noções de Informática</div>
-                    </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 3</div>
-                        <div class="module-title">Matemática</div>
-                    </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 4</div>
-                        <div class="module-title">História Geral, Brasil e Alagoas</div>
-                    </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 5</div>
-                        <div class="module-title">Geografia Geral, Brasil e Alagoas</div>
+                    <div class="timeline-image">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop" alt="Início da EduLearn">
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 5</div>
-                        <div class="module-title">Legislação pertinente ao Policial Militar de Alagoas</div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2011</div>
+                    <div class="timeline-content">
+                        <h3>Primeiras Aprovações</h3>
+                        <p>A aplicação desse método trouxe os primeiros frutos. As primeiras aprovações começaram a acontecer, 
+                            consolidando que o caminho escolhido estava correto. 
+                            Diego foi aprovado na Polícia Militar do Estado do Ceará (2011), 
+                            na Polícia Militar do Estado de Alagoas (2012), 
+                            além de obter aprovação nos Correios e em diversas prefeituras do Rio Grande do Norte.</p>
+                        <p>Essas conquistas não representaram apenas vitórias pessoais, 
+                            mas a confirmação de que o método funcionava. Desse momento em diente 
+                            o que antes era um sonho individual passou a se transformar em uma missão maior: 
+                            ajudar outras pessoas a alcançarem a mesma aprovação, com estratégia, constância e propósito.</p>
                     </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 6</div>
-                        <div class="module-title">Noções de Direito Administrativo</div>
-                    </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 7</div>
-                        <div class="module-title">Noções de Direito Constitucional</div>
-                    </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 8</div>
-                        <div class="module-title">Noções de Direito Penal</div>
-                    </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 9</div>
-                        <div class="module-title">Noções de Processual Penal</div>
-                    </div>
-                    <div class="module-item">
-                        <div class="module-number">MÓDULO 10</div>
-                        <div class="module-title">Noções de Direitos Humanos</div>
+                    <div class="timeline-image">
+                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop" alt="Expansão">
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2013</div>
+                    <div class="timeline-content">
+                        <h3>Ingressando na Polícia Militar do Estado de Alagoas</h3>
+                        <p>Foram meses intensos enfrentando testes físicos, exames médicos, avaliações psicológicas e, 
+                            por fim, o exigente Curso de Formação de Praças,
+                             etapas que exigem não apenas preparo físico e intelectual, 
+                             mas também equilíbrio emocional e resiliência.</p>
+                        <p>Todo esse esforço teve seu ápice em 15 de outubro de 2013. 
+                            Um dia marcado para sempre como o dia da vitória. Naquela data, 
+                            Diego Correia concluía o Curso de Formação da Polícia Militar do Estado de Alagoas 
+                            e era oficialmente nomeado Soldado da Polícia Militar, concretizando um sonho 
+                            que começou anos antes com muita renúncia e perseverança.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop" alt="Tecnologia">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2018</div>
+                    <div class="timeline-content">
+                        <h3>Início da Docência</h3>
+                        <p>Em meados de 2018, o professor Diego Correia sentia que algo maior o chamava. 
+                            Mesmo já tendo alcançado suas conquistas, carregava no coração uma inquietação constante: 
+                            a vontade genuína de transformar vidas, assim como a sua havia sido transformada.</p>
+                        <p>Foi nesse momento que Diego tomou uma decisão definitiva: replicar o caminho da aprovação. 
+                            Mais do que ensinar conteúdos, era hora de orientar pessoas, 
+                            mostrar que era possível vencer com estratégia, disciplina e direção correta.</p>
+                        <p>Assim começava sua jornada na docência, não apenas como professor, mas como mentor, 
+                            movido pelo propósito de guiar outros candidatos a realizarem seus sonhos 
+                            por meio do concurso público. Ali nascia o alicerce do que, em pouco tempo, 
+                            se tornaria o DC Concursos. </p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop" alt="Reconhecimento">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2021</div>
+                    <div class="timeline-content">
+                        <h3>Curso Presencial</h3>
+                        <p>Em 2021, o DC Concursos deu início às suas atividades presenciais, 
+                            marcando uma nova fase na consolidação do Método DC. A partir desse momento, 
+                            o ensino estratégico deixou de ser apenas on-line e passou a ser vivenciado de forma direta, 
+                            próxima e transformadora, fortalecendo ainda mais o vínculo entre professor e aluno.</p>
+                        <p>No presencial, o Método DC ganhou ainda mais força, sendo aplicado com foco total no resultado. 
+                            A combinação de estratégia, direcionamento, disciplina e acompanhamento levou diversos 
+                            alunos à aprovação em todas as Polícias Militares do Brasil, consolidando o DC Concursos 
+                            como referência nacional na preparação para carreiras policiais.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop" alt="Futuro">
+                    </div>
+                </div>
 
 
-    <section class="cards-section">
-        <div class="container">
-            <h2 class="text-center mb-5">Nossos diferenciais</h2>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
-                    <div class="card info-card">
-                        <div class="card-body text-center">
-                            <img src="assets/icons/icons8-semana-da-linha-do-tempo-50.png">
-                            <h5 class="card-title">Cronograma estratégico</h5>
-                            <p class="card-text">Tenha acesso a um cronograma estratégico de estudos.</p>
-                        </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">Atual</div>
+                    <div class="timeline-content">
+                        <h3>O Futuro é Agora</h3>
+                        <p>Hoje, o DC Concursos é uma realidade consolidada. 
+                            Com duas sedes presenciais na cidade de Maceió, o projeto que nasceu de um sonho individual 
+                            tornou-se um espaço de formação, transformação e esperança para milhares de pessoas.</p>
+                        <p>O futuro que antes parecia distante agora acontece todos os dias, 
+                            dentro de cada aluno que decide acreditar, persistir e seguir o caminho certo. 
+                            O DC Concursos segue firme em sua missão de guiar pessoas rumo à aprovação, 
+                            formando não apenas servidores públicos, mas cidadãos preparados para servir com honra, 
+                            responsabilidade e excelência.</p>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card info-card">
-                        <div class="card-body text-center">
-                            <img src="assets/icons/icons8-professor-50.png">
-                            <h5 id="text-bg" class="card-title">Suporte especializado</h5>
-                            <p class="card-text">Atendimento disponível para tirar suas dúvidas a qualquer momento.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card info-card">
-                        <div class="card-body text-center">
-                            <img src="assets/icons/icons8-aprovado-50.png">
-                            <h5 class="card-title">Método DC</h5>
-                            <p class="card-text">Metodologia otimizada para acelerar seu processo de aprendizagem.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="card info-card">
-                        <div class="card-body text-center">
-                            <img src="assets/icons/icons8-documentos-50.png">
-                            <h5 class="card-title">Simulados e Questões</h5>
-                            <p class="card-text">Simulados estratégicos e aprenda com resoluções claras e objetivas.</p>
-                        </div>
+                    <div class="timeline-image">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop" alt="Futuro">
                     </div>
                 </div>
             </div>
@@ -266,13 +221,13 @@
     <div class="container text-center">
         <div id="logo-footer" class="container">
                 <div class="logo-icon">
-                    <img src="assets/icons/logo-2.png" alt="Logo">
+                    <img src="/assets/icons/logo.png" alt="Logo">
                 </div>
         </div>
         <p class="mb-4">Nossa missão é transformar vidas!</p>
-            <a class="icon-footer" href="http://"><img src="assets/icons/icons8-instagram-50.png"></a>
-            <a class="icon-footer" href="http://"><img src="assets/icons/icons8-youtube-50.png"></a>
-            <a class="icon-footer" href="https://wa.me/5582993458306"><img src="assets/icons/icons8-whatsapp-50.png"></a>
+            <a class="icon-footer" href="http://"><img src="/assets/icons/icons8-instagram-50.png"></a>
+            <a class="icon-footer" href="http://"><img src="/assets/icons/icons8-youtube-50.png"></a>
+            <a class="icon-footer" href="https://wa.me/5582993458306"><img src="/assets/icons/icons8-whatsapp-50.png"></a>
             <hr style="border-color: rgba(255,255,255,0.2);">
             <p class="mb-0">&copy; 2026 DC Concursos. Todos os direitos reservados.</p>
         </div>
