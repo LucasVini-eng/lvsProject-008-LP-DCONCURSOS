@@ -186,6 +186,12 @@ h2{
     object-fit: cover;
 }
 
+.card img-aprovados {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .card-body img{
     width: 50px;
     height: 50px;
